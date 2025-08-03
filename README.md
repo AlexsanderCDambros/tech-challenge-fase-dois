@@ -18,6 +18,8 @@ Caso você prefira não utilizar o docker e rodar manualmente, precisará instal
     
 Para começar clone esse repositório e os repositórios das demais aplicações em sua máquina.
 
+- Repositório principal - https://github.com/AlexsanderCDambros/tech-challenge-fase-dois.git
+  - `git clone https://github.com/AlexsanderCDambros/tech-challenge-fase-dois.git`
 - Chassi - https://github.com/AlexsanderCDambros/TC2-chassi
   - `git clone https://github.com/AlexsanderCDambros/TC2-chassi.git`
 - Login - https://github.com/AlexsanderCDambros/TC2-login
