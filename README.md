@@ -18,8 +18,19 @@ Caso você prefira não utilizar o docker e rodar manualmente, precisará instal
     
 Para começar clone esse repositório e os repositórios das demais aplicações em sua máquina.
 
+#### 1. Clonagem o repositório principal:
+
 - Repositório principal - https://github.com/AlexsanderCDambros/tech-challenge-fase-dois.git
   - `git clone https://github.com/AlexsanderCDambros/tech-challenge-fase-dois.git`
+
+#### 2. Clonagem dos demais repositórios:
+
+Para o docker compose funcionar, é necessário que você clone os demais repositórios dentro do principal, por isso, abra um terminal dentro da pasta **tech-challenge-fase-dois**, ou no mesmo terminal que você fez o git clone, navegue para a pasta do projeto com o comando:
+
+`cd tech-challenge-fase-dois`
+
+Depois disso, continue com os comandos abaixo para clonar todos os repositórios:
+
 - Chassi - https://github.com/AlexsanderCDambros/TC2-chassi
   - `git clone https://github.com/AlexsanderCDambros/TC2-chassi.git`
 - Login - https://github.com/AlexsanderCDambros/TC2-login
@@ -36,7 +47,17 @@ Para começar clone esse repositório e os repositórios das demais aplicações
 
 ### Instalação utilizando o docker
 
+Se optar pela utilização do docker, no mesmo terminal da clonagem, ou em um novo que esteja na pasta **tech-challenge-fase-dois**, execute o comando:
 
+`docker-compose up --build`
+
+Esse processo pode demorar um bom tempo, pois são muitas imagens que o docker terá que criar e executar.
+
+#### Abrir a aplicação em um navegador
+
+Quando o processo terminar, pPara abrir a aplicação, basta ir em um navegador e abrir o endereço:
+
+`http://127.0.0.1:9000/` ou `http://localhost:9000/`
 
 
 ### Instalação manual sem o docker

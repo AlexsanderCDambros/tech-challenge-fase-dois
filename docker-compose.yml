@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  chassi:
+    build: ./TC2-chassi
+    ports:
+      - "9000:9000"
+    depends_on:
+      - menu
+      - login
+      - inicio
+      - transacoes
+      - api
+    environment:
+      - NODE_ENV=development
+  
+  menu:
+    build: ./TC2-menu
+    ports:
+      - "9001:9001"
+    environment:
+      - PORT=9001
+  
+  login:
+    build: ./TC2-login
+    ports:
+      - "9002:9002"
+    environment:
+      - PORT=9002
+  
+  inicio:
+    build: ./TC2-inicio
+    ports:
+      - "9003:9003"
+    environment:
+      - PORT=9003
+  
+  transacoes:
+    build: ./TC2-transacoes
+    ports:
+      - "9004:9004"
+    environment:
+      - PORT=9004
+  
+  api:
+    build: ./TC2-Copia-API
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
