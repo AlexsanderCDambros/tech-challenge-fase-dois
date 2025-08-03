@@ -55,7 +55,7 @@ Esse processo pode demorar um bom tempo, pois são muitas imagens que o docker t
 
 #### Abrir a aplicação em um navegador
 
-Quando o processo terminar, pPara abrir a aplicação, basta ir em um navegador e abrir o endereço:
+Quando o processo terminar, para abrir a aplicação, basta ir em um navegador e abrir o endereço:
 
 `http://127.0.0.1:9000/` ou `http://localhost:9000/`
 
