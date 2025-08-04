@@ -44,6 +44,7 @@ Depois disso, continue com os comandos abaixo para clonar todos os repositórios
 - Cópia API - https://github.com/AlexsanderCDambros/TC2-Copia-API
   - `git clone https://github.com/AlexsanderCDambros/TC2-Copia-API`
 
+---
 
 ### Instalação utilizando o docker
 
@@ -59,6 +60,7 @@ Quando o processo terminar, para abrir a aplicação, basta ir em um navegador e
 
 `http://127.0.0.1:9000/` ou `http://localhost:9000/`
 
+---
 
 ### Instalação manual sem o docker
 
