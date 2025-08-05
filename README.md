@@ -2,7 +2,7 @@
 
 Repositório da **Fase 2** do **Tech Challenge** da **Pós tech em Frontend Engineering** - **FIAP**.
 
-Acesso ao vídeo de demonstração e entrega do tech challenge: [Link para o vídeo no Youtube]()
+Acesso ao vídeo de demonstração e entrega do tech challenge: [Link para o vídeo no Youtube](https://youtu.be/E3U1MUqCzGA)
 
 Desenvolvido por Alexsander Chagas Dambros | [LinkedIn](https://www.linkedin.com/in/alexsandercdambros/)
 
